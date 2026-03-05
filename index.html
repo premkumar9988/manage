@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather Application</title>
+</head>
+
+<body>
+
+<h1>Weather Information System</h1>
+<p>Check and store weather details</p>
+
+<a href="#home">Home</a> |
+<a href="#weather">Weather Data</a> |
+<a href="#add">Add Weather</a>
+
+<hr>
+
+<section id="weather">
+
+<h2>Weather Details</h2>
+
+<table border="1" cellpadding="10">
+<tr>
+<th>City</th>
+<th>Temperature</th>
+<th>Humidity</th>
+<th>Condition</th>
+</tr>
+
+<tr>
+<td>Chennai</td>
+<td>32°C</td>
+<td>65%</td>
+<td>Sunny</td>
+</tr>
+
+<tr>
+<td>Delhi</td>
+<td>28°C</td>
+<td>70%</td>
+<td>Cloudy</td>
+</tr>
+
+</table>
+
+</section>
+
+<hr>
+
+
+<section id="add">
+
+<h2>Add Weather Data</h2>
+
+<form>
+
+<label>City Name:</label><br>
+<input type="text" placeholder="Enter city name" required>
+<br><br>
+
+<label>Temperature:</label><br>
+<input type="number" placeholder="Enter temperature">
+<br><br>
+
+<label>Humidity:</label><br>
+<input type="number" placeholder="Enter humidity">
+<br><br>
+
+<label>Weather Condition:</label><br>
+
+<input type="radio" name="weather">Sunny
+<input type="radio" name="weather">Cloudy
+<input type="radio" name="weather">Rainy
+
+<br><br>
+
+<label>Extra Info:</label><br>
+<textarea rows="4" cols="30" placeholder="Enter weather description"></textarea>
+
+<br><br>
+
+<input type="submit" value="Submit Weather">
+<input type="reset" value="Clear Form">
+
+</form>
+
+</section>
+
+</body>
+</html>
